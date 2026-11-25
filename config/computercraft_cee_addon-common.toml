@@ -1,0 +1,96 @@
+#How peripherals find their computer
+[linking]
+	#Let a monitor or keyboard link to a computer just by touching it.
+	#Off by default, so a Peripheral Cable is needed even when blocks are side by side.
+	adjacentLinking = false
+
+[screen]
+	#Remove CC cursor blinking screen, default is true
+	alwaysLive = true
+	#A monitor on a radio bridge station's Signal pin mirrors the computer that reaches it over the air, as a cabled monitor does.
+	radioMonitorMirror = true
+
+#Fun additions you might want to turn off if youre boring.
+[funsies]
+	#Should cats lie on keyboards when you are using them (Rare), its very cute but can be a bit destructive with Keyboard Smash.
+	catsLieOnKeyboards = true
+	#Should cats fight over keyboards, if turned off the first one to get there wins.
+	#Doesnt work very well, sometimes no cat will end up lying down on it, they will all just stand there.
+	catsFightForKeyboards = false
+	#Should entities walking on keyboards, as well as punching a keyboard, press random keys.
+	keyboardSmash = true
+
+#How cee.send shares the cable out when several machines talk at once.
+[network]
+	#Messages one machine may send per tick. Matches the old per-machine cap.
+	# Default: 32
+	# Range: 1 ~ 1024
+	sendTokensPerTick = 32
+	#Messages the whole server may send per tick, as a safety net.
+	# Default: 4096
+	# Range: 32 ~ 262144
+	globalSendsPerTick = 4096
+	#Arrivals one computer may have waiting. Past this, sends to it are refused rather than dropped silently.
+	# Default: 256
+	# Range: 8 ~ 16384
+	ingressCapacity = 256
+	#Arrivals handed to one computer per tick. The rest wait.
+	# Default: 32
+	# Range: 1 ~ 1024
+	ingressDrainPerTick = 32
+	#Extra sends a computer may make back to someone who just reached it, so two-way control survives a flood.
+	#0 turns reply preference off.
+	# Default: 8
+	# Range: 0 ~ 256
+	replyCredits = 8
+
+#Big payloads get their own allowance so they cannot crowd out control messages.
+[bulk]
+	#Big messages one machine may send per tick.
+	# Default: 8
+	# Range: 1 ~ 1024
+	bulkTokensPerTick = 8
+	#Roughly how big a payload has to be to count as bulk.
+	# Default: 512
+	# Range: 64 ~ 65536
+	bulkBytes = 512
+	#Percent of a receiver's queue bulk may occupy. The rest is kept for control.
+	# Default: 50
+	# Range: 5 ~ 100
+	bulkIngressPercent = 50
+
+#cee.publish: repeated state that overwrites instead of piling up.
+[latest]
+	#Named values one computer may hold. Past this, new keys are refused.
+	# Default: 64
+	# Range: 4 ~ 1024
+	stateSlots = 64
+	#cee_state events one computer is given per tick.
+	# Default: 16
+	# Range: 1 ~ 256
+	stateDrainPerTick = 16
+
+#How the Radio Modem shares the air. Each allowance is separate, so big payloads and published state cannot use up the one control messages need.
+[radio]
+	#Messages one modem may deliver per tick with transmit. Each computer that receives one counts once.
+	# Default: 32
+	# Range: 1 ~ 1024
+	txTokensPerTick = 32
+	#Big messages one modem may deliver per tick. Uses the same size rule as the cable.
+	# Default: 8
+	# Range: 1 ~ 1024
+	bulkTokensPerTick = 8
+	#Published values one modem may deliver per tick.
+	# Default: 32
+	# Range: 1 ~ 1024
+	stateTokensPerTick = 32
+	#Radio deliveries the whole server may make per tick, as a safety net. Kept apart from the cable's own limit.
+	# Default: 4096
+	# Range: 32 ~ 262144
+	globalDeliveriesPerTick = 4096
+	#Let a computer hear its own radio transmissions, for testing.
+	#Off by default: a computer never receives what it sent itself, and transmit does not count it.
+	loopback = false
+	#Antennas reach further the higher they are: full range only from y 256 up, two thirds of it at y 96 and below.
+	#Off gives every antenna its full range at any height.
+	heightAffectsRange = true

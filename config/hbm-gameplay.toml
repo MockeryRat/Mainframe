@@ -1,0 +1,318 @@
+#Same as data/hbm/hbm/explosion_config/explosions.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[explosions]
+	#Default: 150
+	gadget_radius = 150
+	#Default: 120
+	boy_radius = 120
+	#Default: 175
+	man_radius = 175
+	#Default: 250
+	mike_radius = 250
+	#Default: 500
+	tsar_radius = 500
+	#Default: 150
+	prototype_radius = 150
+	#Default: 50
+	fleija_radius = 50
+	#Default: 100
+	missile_radius = 100
+	#Default: 150
+	solinium_radius = 150
+	#Default: 200
+	n2_radius = 200
+	#Default: 35
+	fatman_radius = 35
+	#Default: 20
+	a_schrab_radius = 20
+	#Default: 100
+	fallout_range = 100
+	crater_biomes = true
+	disable_nuclear = false
+	#Default: 20
+	schrab_ore_rate = 20
+
+#Same as data/hbm/hbm/explosion_config/mines.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[mines]
+	#Default: 10.0
+	ap_damage = 10.0
+	#Default: 35.0
+	he_damage = 35.0
+	#Default: 7.5
+	shrap_damage = 7.5
+	#Default: 100.0
+	nuke_damage = 100.0
+	#Default: 60.0
+	naval_damage = 60.0
+
+#Same as data/hbm/hbm/mob_config/maskman.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[maskman]
+	enabled = true
+	#Default: 1200
+	delay = 1200
+	#Default: 50
+	min_rad = 50
+	underground = true
+
+#Same as data/hbm/hbm/mob_config/raids.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[raids]
+	enabled = false
+	#Default: 108000
+	delay = 108000
+	#Default: 3
+	chance = 3
+	#Default: 15
+	amount = 15
+	#Default: 40
+	attack_delay = 40
+	#Default: 2
+	attack_reach = 2
+	#Default: 32
+	attack_distance = 32
+	#Default: 5
+	drones = 5
+
+#Same as data/hbm/hbm/mob_config/elementals.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[elementals]
+	enabled = true
+	#Default: 108000
+	delay = 108000
+	#Default: 2
+	chance = 2
+	#Default: 10
+	amount = 10
+	#Default: 32
+	distance = 32
+
+#Same as data/hbm/hbm/mob_config/gear.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[gear]
+	enabled = true
+	weapons = true
+	#Default: 0.0
+	weapon_soot_reduction = 0.0
+
+#Same as data/hbm/hbm/mob_config/glyphids.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[glyphids]
+	enabled = true
+	#Default: 256
+	hive_spawn = 256
+	#Default: 1.0
+	scout_threshold = 1.0
+	#Default: 200
+	min_spawn_delay = 200
+	#Default: 799
+	max_spawn_delay = 799
+	#Default: 4
+	spawn_count = 4
+	#Default: 6
+	max_nearby_entities = 6
+	#Default: 16
+	required_player_range = 16
+	#Default: 4
+	spawn_range = 4
+	#Default: 20
+	failed_spawn_delay = 20
+	#Default: 1.0
+	targeting_threshold = 1.0
+	#Default: 3
+	scout_swarm_spawn_chance = 3
+	#Default: 50
+	glyphid_chance_base = 50
+	#Default: -45
+	glyphid_chance_mod = -45
+	#Default: 0
+	glyphid_chance_min_soot = 0
+	#Default: 10
+	brawler_chance_base = 10
+	#Default: 30
+	brawler_chance_mod = 30
+	#Default: 1
+	brawler_chance_min_soot = 1
+	#Default: 20
+	bombardier_chance_base = 20
+	#Default: -15
+	bombardier_chance_mod = -15
+	#Default: 1
+	bombardier_chance_min_soot = 1
+	#Default: -5
+	blaster_chance_base = -5
+	#Default: 40
+	blaster_chance_mod = 40
+	#Default: 5
+	blaster_chance_min_soot = 5
+	#Default: -15
+	digger_chance_base = -15
+	#Default: 25
+	digger_chance_mod = 25
+	#Default: 5
+	digger_chance_min_soot = 5
+	#Default: -30
+	behemoth_chance_base = -30
+	#Default: 45
+	behemoth_chance_mod = 45
+	#Default: 10
+	behemoth_chance_min_soot = 10
+	#Default: -50
+	brenda_chance_base = -50
+	#Default: 60
+	brenda_chance_mod = 60
+	#Default: 20
+	brenda_chance_min_soot = 20
+	#Default: -50
+	johnson_chance_base = -50
+	#Default: 60
+	johnson_chance_mod = 60
+	#Default: 50
+	johnson_chance_min_soot = 50
+	rampant_mode = false
+	rampant_natural_scout_spawn = false
+	#Default: 13.0
+	rampant_scout_spawn_thresh = 13.0
+	#Default: 1400
+	rampant_scout_spawn_chance = 1400
+	rampant_extended_targetting = false
+	rampant_dig = false
+	rampant_glyphid_guidance = false
+	#Default: 0.4
+	rampant_smoke_stack_override = 0.4
+
+#Same as data/hbm/hbm/radiation_config/radiation.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[radiation]
+	#Default: 100.0
+	fog_rad = 100.0
+	#Default: 20.0
+	fog_chance = 20.0
+	world_rad_effects = true
+	cleanup_dead_dirt = false
+	enable_contamination = true
+	enable_contamination_on_ground = true
+	enable_chunk_rads = true
+	neutron_activation = false
+	#Default: 15
+	neutron_activation_threshold = 15
+	#Default: 10.0
+	diffusivity = 10.0
+	#Default: 120.0
+	half_life_seconds = 120.0
+	#Background radiation in the Nether, RAD/s (1.7.10: AMBIENT_00_nether). 0 turns it off.
+	#Same as data/minecraft/hbm/radiation_settings/the_nether.json (ambient_rad). Read when the Nether loads: on a running server a change takes effect after a restart.
+	# Default: 0.1
+	# Range: 0.0 ~ 1000000.0
+	nether_ambient_rad = 0.1
+
+#Same as data/hbm/hbm/radiation_config/hazards.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[hazards]
+	disable_asbestos = false
+	disable_coal = false
+	disable_hot = false
+	disable_explosive = false
+	disable_hydro = false
+	disable_blinding = false
+	disable_cold = false
+	disable_toxic = false
+	enable_pollution = true
+	enable_lead_from_blocks = true
+	enable_lead_poisoning = true
+	enable_soot_fog = true
+	enable_poison = true
+	#Default: 1.0
+	pollution_mult = 1.0
+	#Default: 15.0
+	buff_mob_threshold = 15.0
+	#Default: 35.0
+	soot_fog_threshold = 35.0
+	#Default: 120.0
+	soot_fog_divisor = 120.0
+
+#Same as data/hbm/hbm/item_config/items.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[items]
+	crate_keeps_contents = true
+	enable_mku = true
+	taint_trails = false
+
+#Same as data/hbm/hbm/item_config/drops.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[drops]
+	antimatter_cell_explodes = true
+	singularity_spawns = true
+	star_blaster_cell_explodes = true
+	xen_crystal_moves_blocks = true
+	dead_man_explosive_detonates = true
+
+#Same as data/hbm/hbm/item_config/tools.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[tools]
+	veinminer_breaks_stone = false
+	veinminer_breaks_netherrack = false
+	ability_hammer = true
+	ability_vein = true
+	ability_luck = true
+	ability_silk = true
+	ability_furnace = true
+	ability_shredder = true
+	ability_centrifuge = true
+	ability_crystallizer = true
+	ability_mercury = true
+	ability_explosion = true
+
+#Same as data/hbm/hbm/item_config/weapons.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[weapons]
+	enable_guns = true
+
+#Same as data/hbm/hbm/item_config/player.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[player]
+	potion_sickness = "OFF"
+
+#Same as data/hbm/hbm/world_config/meteors.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[meteors]
+	enable_strikes = true
+	enable_showers = true
+	enable_tails = true
+	enable_special = true
+	#Default: 360000
+	strike_chance = 360000
+	#Default: 18000
+	shower_chance = 18000
+	#Default: 36000
+	shower_duration = 36000
+
+#Same as data/hbm/hbm/world_config/world.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[world]
+	enable_mycelium_spread = false
+	enable_virus_spread = false
+	enable_impact_atmosphere = true
+
+#Same as data/hbm/hbm/world_config/loot.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[loot]
+	#Default: 1.0
+	amount_factor = 1.0
+
+#Same as data/hbm/hbm/world_config/worldgen.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[worldgen]
+	overworld_ores = true
+	nether_ores = true
+	end_ores = true
+	coltan_spawn = false
+	nether_plutonium = false
+
+#Same as data/hbm/hbm/machine_config/machines.json in a datapack.
+#A line changed here from its default replaces the datapack's value.
+[machines]
+	gravity = false
+	#Default: 20
+	autocal_max_clock = 20

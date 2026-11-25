@@ -1,0 +1,12 @@
+packwiz.exe
+packwiz-installer-bootstrap.jar
+.git/
+.gitignore
+logs/
+crash-reports/
+screenshots/
+saves/
+options.txt
+servers.dat
+usercache.json
+usernamecache.json

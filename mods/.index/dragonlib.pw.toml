@@ -1,0 +1,18 @@
+filename = 'dragonlib-3.0.29+mc1.21.1-neoforge.jar'
+name = 'DragonLib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DragonLib 3.0.29+mc1.21.1 (Neoforge)'
+
+[download]
+hash = 'ca7227b30334cb50117efe5cf76a01772e053eed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9119903
+project-id = 946163

@@ -1,0 +1,21 @@
+filename = 'walker-pistons-0.2.1.jar'
+name = 'Walker Pistons'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'walker-pistons-0.2.1.jar'
+
+[download]
+hash = '31d7e5516e6bbdd6932724f4bfbd728d24c22010'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9547153
+project-id = 1789190
+
+[[x-prismlauncher-dependencies]]
+addonId = '1780503'
+type = 'REQUIRED'

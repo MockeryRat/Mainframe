@@ -1,0 +1,5 @@
+[Loudener]
+	#Sound volume of an engine fitted with a Loudener (default unmodified engine volume is 0.5, Silencer reduces it to 0.02)
+	# Default: 3.0
+	# Range: 0.5 ~ 10.0
+	loudenerVolume = 3.0

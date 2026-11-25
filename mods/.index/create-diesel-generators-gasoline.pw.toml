@@ -1,0 +1,27 @@
+filename = 'gasoline_engine.jar'
+name = 'create diesel generators: gasoline+'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.21.1-1.0.0'
+
+[download]
+hash = 'f6b2c110516367f97af88459047d40bff2f69681e7d4ecbcf2ad94efe65f656ff3a63e659fc898f9d30dc54ec3b6487b99c169c3cd5652ed451d2455a29ca75e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eqORCKVl/versions/BDh6pzGe/gasoline_engine.jar'
+
+[update.modrinth]
+mod-id = 'eqORCKVl'
+version = 'BDh6pzGe'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ZM3tt6p1'
+type = 'REQUIRED'
+version = 'Kijd1iDy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'UjX6dr61'

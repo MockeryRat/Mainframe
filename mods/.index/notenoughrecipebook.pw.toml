@@ -1,0 +1,21 @@
+filename = 'nerb-neoforge-0.6.2+1.21.1.jar'
+name = 'Not Enough Recipe Book'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.6.2+1.21.1'
+
+[download]
+hash = '5a743ecb42bce83e473f85b8765c832e79fb77999f167b651f649cdff8b7849c39647b95cdfcd829ac320c6cf41cfa6fcfc73bbf1a4818280c281b880f5a6f8c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bQh7xzFq/versions/JxnUIrYz/nerb-neoforge-0.6.2%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'bQh7xzFq'
+version = 'JxnUIrYz'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RH2KUdKJ'
+type = 'REQUIRED'

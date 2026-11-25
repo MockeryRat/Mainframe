@@ -1,0 +1,47 @@
+[circuitDesignTable]
+	#Higher contrast between traces in the circuit editor
+	HighContrastTraces = false
+	#Amount of red in traces
+	# Default: 255
+	# Range: 0 ~ 255
+	traceRedTop = 255
+	#Amount of green in traces
+	# Default: 0
+	# Range: 0 ~ 255
+	traceGreenTop = 0
+	#Amount of blue in traces
+	# Default: 0
+	# Range: 0 ~ 255
+	traceBlueTop = 0
+	#Amount of alpha in traces
+	# Default: 255
+	# Range: 0 ~ 255
+	traceAlphaTop = 255
+	#Amount of alpha in traces
+	# Default: 128
+	# Range: 0 ~ 255
+	traceAlphaTopBehind = 128
+	#Amount of red in traces
+	# Default: 0
+	# Range: 0 ~ 255
+	traceRedBottom = 0
+	#Amount of green in traces
+	# Default: 255
+	# Range: 0 ~ 255
+	traceGreenBottom = 255
+	#Amount of blue in traces
+	# Default: 0
+	# Range: 0 ~ 255
+	traceBlueBottom = 0
+	#Amount of alpha in traces on the back
+	# Default: 255
+	# Range: 0 ~ 255
+	traceAlphaBottom = 255
+	#Amount of alpha in traces on the back
+	# Default: 128
+	# Range: 0 ~ 255
+	traceAlphaBottomBehind = 128
+
+[wallWires]
+	#Wire spools lay wires flat on block faces (WALL mode) instead of hanging them. Toggled in game with the wire mode key.
+	wallMode = false

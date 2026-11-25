@@ -1,0 +1,29 @@
+#是否播放「碾过方块」的脚步声。
+soundEnabled = true
+#碾压音效音量。0.15 ≈ 原版玩家脚步声；嫌吵调小，想明显调大。
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+soundVolume = 0.15
+
+#转向架（悬架）运行声。声音来源：原版矿车行进声 minecraft:entity.minecart.riding。
+[bogeySound]
+	#总开关。
+	bogeyEnabled = true
+	#最大音量。实际音量 = volume × (0.35 + 0.65 × 速度归一值)，越大越响。
+	# Default: 0.1
+	# Range: 0.0 ~ 4.0
+	volume = 0.1
+	#静止 / 极慢时的音调。
+	# Default: 0.75
+	# Range: 0.5 ~ 2.0
+	pitchMin = 0.75
+	#满速时的音调（软映射，渐近逼近、永不饱和）。
+	# Default: 1.42
+	# Range: 0.5 ~ 2.0
+	pitchMax = 1.42
+	#最低发声转速（RPM）。低于该转速不播放声音。
+	# Default: 32.0
+	# Range: 0.0 ~ 2000.0
+	minRpm = 32.0
+	#每 15 秒输出一条观测到的转速范围与对应音调 / 音量日志（用于标定）。
+	debugSample = true

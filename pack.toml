@@ -1,0 +1,13 @@
+name = "Mainframe"
+author = "Mockery"
+version = "1.5"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5fec94b61551059438ac80bc8a777547b060e372a1261786ae6851e4cf9bea33"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.267"

@@ -1,0 +1,58 @@
+#轮子碾过地面的效果（车辙 / 碾压音效）
+[rollingEffect]
+	allEnabled = false
+	#同一轮架两次留痕之间的最短间隔（tick），避免高速时糊成一片。
+	# Default: 3
+	# Range: 0 ~ 100
+	minIntervalTicks = 3
+	#轮子半径大于该值则不在耕地留痕。
+	# Default: 0.8
+	# Range: 0.0 ~ 10.0
+	farmlandMaxRadius = 0.8
+	#草方块 / 泥土 / 耕地 → 土径 的概率（晴天）。
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	dirtPathChance = 0.25
+	#同上，但下雨时的概率（更容易压出印子）。
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	dirtPathChanceRain = 0.75
+	#沙子（含红沙）→ 砂岩 的概率。
+	# Default: 0.125
+	# Range: 0.0 ~ 1.0
+	sandstoneChance = 0.125
+	#淋雨多久被冲成泥土（20 tick = 1 秒）。它也决定「重进游戏后」的冲刷速度。
+	# Default: 200
+	# Range: 1 ~ 100000
+	rainRevertTicks = 200
+	#【锚点】0.5 格半径的轮子能承载多少（kpg）。
+	# Default: 6.0
+	# Range: 2.0 ~ 10.0
+	loadCapacityAtHalfRadius = 6.0
+	#【斜率】半径每多 1 格，承载能力加多少 kpg。默认 2 ⇒ 0.5→6、1.0→7、2.0→9。
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	loadKpgPerRadius = 2.0
+	#【雨天打滑】只作用于淋得到雨的那个方块：0.4 = 抓地力降到 40%，
+	#1.0 = 不干预，0.25 ≈ 接近冰面。桥下 / 有顶棚的地方不变。
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	rainGripMultiplier = 0.4
+	#【性能】雨冲刷扫描节流：每 N tick 扫一次（总时长不变，开销降到 1/N）。
+	# Default: 2
+	# Range: 1 ~ 100
+	revertScanIntervalTicks = 2
+	#【性能】冲刷进度同步给客户端的间隔（tick）。0 = 不同步（客户端无动画）。
+	# Default: 10
+	# Range: 0 ~ 1000
+	syncIntervalTicks = 10
+
+#轮子转向角限制（按航速）。转向角 = 悬架收到侧向红石强度时轮子的偏转角，
+#原版满信号 = ±30°。航速越高允许的最大转角越小。
+[steerLimit]
+	#【限制强度】转向上限公式里的倍率：
+	#限制角 = 225 ÷ 航速(格/秒)，超过 30° 截为 30°；
+	#转向上限 = 30° + (限制角 − 30°) × 本值。
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	strength = 1.0

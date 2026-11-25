@@ -1,0 +1,18 @@
+{
+  "equipped": {
+    "BACK": "WOLF_TAIL",
+    "ICON": "BASE_ICON",
+    "EARS": "FOX_EARS",
+    "PET": "RACCOON"
+  },
+  "settings": {
+    "WOLF_TAIL": [
+      "{\"type\":\"VARIANT\",\"id\":\"BACK\",\"enabled\":true,\"data\":{\"variant\":\"brown\"}}"
+    ],
+    "BASE_ICON": [],
+    "RACCOON": [],
+    "FOX_EARS": [
+      "{\"type\":\"VARIANT\",\"id\":\"EARS\",\"enabled\":true,\"data\":{\"variant\":\"brown\"}}"
+    ]
+  }
+}

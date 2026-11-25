@@ -1,0 +1,18 @@
+filename = 'uncrafteverything-2.1.6+1.21.1-neoforge.jar'
+name = 'Uncraft Everything'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.6+1.21.1-neoforge'
+
+[download]
+hash = '19a11ff3c6c2aebf75e4833f6fd11a28f12f4dfeb29eb92f46de3da6350a4f4879cc2f943e3809607810205b6cd762d80b47ceeceda49dc41e8374b63976c9b6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9cz66Qto/versions/Pz63RaMs/uncrafteverything-2.1.6%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = '9cz66Qto'
+version = 'Pz63RaMs'

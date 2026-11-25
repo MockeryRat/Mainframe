@@ -1,0 +1,21 @@
+filename = 'dashpanels_expanded-2.0.1.jar'
+name = 'Dashpanels: Expanded'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Dashpanels: Expanded 2.0.1'
+
+[download]
+hash = '48f8fb30cf30b22022e129a68aa7194190b0011e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8601245
+project-id = 1604243
+
+[[x-prismlauncher-dependencies]]
+addonId = '1585610'
+type = 'REQUIRED'

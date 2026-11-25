@@ -1,0 +1,34 @@
+#Board parts heat up and burn when overloaded.
+overheating = true
+#Fraction of the pull-in current that keeps a board relay closed.
+# Default: 0.9
+# Range: 0.01 ~ 0.99
+holdingCurrentPercent = 0.9
+#Cooling multiplier applied to boards in an encased fan's air stream (multiplied by rotational speed).
+# Default: 0.01
+# Range: 0.0 ~ 10.0
+encasedFanCooling = 0.01
+
+[wallWires]
+	#Longest wall wire in blocks, measured along its route. The wire type's own limit also applies.
+	# Default: 64.0
+	# Range: 1.0 ~ 512.0
+	maxLength = 64.0
+	#Longest straight piece between a connector and the first or last point on a face.
+	# Default: 2.0
+	# Range: 0.5 ~ 8.0
+	maxLead = 2.0
+	#Most points a player can click for one wall wire.
+	# Default: 64
+	# Range: 1 ~ 512
+	maxPoints = 64
+
+[cableReel]
+	#Blocks of wire one spool winds into a cable reel. A loose wire item is this divided by Electro Energetics' wireItemsPerSpool.
+	# Default: 16.0
+	# Range: 1.0 ~ 256.0
+	spoolLength = 16.0
+	#How many spools of wire a cable reel holds.
+	# Default: 4
+	# Range: 1 ~ 64
+	capacitySpools = 4
