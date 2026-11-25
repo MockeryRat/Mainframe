@@ -10,3 +10,5 @@ options.txt
 servers.dat
 usercache.json
 usernamecache.json
+**/.index/
+**/.index/**
