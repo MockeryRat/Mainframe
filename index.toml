@@ -4210,6 +4210,10 @@ file = "mods/cinematic-delight-0.2.0-neoforge1.21.1.jar"
 hash = "85370e5c5629fd77ab89c539eee75fe55ed850167a6cbe8b3013b539e6593f06"
 
 [[files]]
+file = "mods/civillis-neoforge-2.0.1-release+mc1.21.1.jar"
+hash = "54af17b71061e5b161cd528d1b95874bedd44502668ad0803a28d5afb3cf0957"
+
+[[files]]
 file = "mods/client-mods.txt"
 hash = "f25df53f17fc86f29511cc5c7752ee258a429548484e3364ae7a9e0211c7ece4"
 
@@ -4286,6 +4290,10 @@ file = "mods/create_aeronautics_transmission_linkage-0.2.9.jar"
 hash = "2b1015c61e66e6e9df0e74e819e2797882b9ca246afc431984858fce95752c41"
 
 [[files]]
+file = "mods/create_aquatic_ambitions-1.21.1-2.0.4.jar"
+hash = "d50180fd30dc7f034ea4ad5185d18cfa652457be1d8e7a45f0b491d0e6642d44"
+
+[[files]]
 file = "mods/create_avionics-neoforge-1.21.1-0.7.0.jar"
 hash = "ad80e3d5ca6fafb1575f823c0bb904b55872a41f9761f5639d759a6ef317e69e"
 
@@ -4304,6 +4312,10 @@ hash = "0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f"
 [[files]]
 file = "mods/create_flight_control-neoforge-0.8.3.jar"
 hash = "86691e6965bb9c3e54ef71001a4ebea798e1ccc9b30ccdb731538933f1379208"
+
+[[files]]
+file = "mods/create_mobile_packages-1.21.1-0.7.8.jar"
+hash = "74a03a7d8112fd9a93d163ce73f34f43b4a0e44f2df6c595cc7ba1a24b40d095"
 
 [[files]]
 file = "mods/create_optical-0.4.2.jar"
@@ -4534,6 +4546,10 @@ file = "mods/inventoryessentials-neoforge-1.21.1-21.1.20.jar"
 hash = "b945b5594a885b15b4b966b1aa6cbe1d392aba9b154a95a43e5731f9f6e01646"
 
 [[files]]
+file = "mods/ip_aeronautics-2.8.27.jar"
+hash = "856c865f6b3a1c7e38dcd4edf977612325bee960594b88394276046ee1c4bc06"
+
+[[files]]
 file = "mods/iris-flywheel-compat-NeoForge-2.4.0.jar"
 hash = "f5351cf9a838ae1624fcda78a8734b52cfde20de824db30e3f00dd00b9128ec8"
 
@@ -4604,6 +4620,10 @@ hash = "c42510938584eda0aae134003e367d745fd32ceac1836221cecac4cbc7bfa3a1"
 [[files]]
 file = "mods/modernfix-neoforge-5.27.27+mc1.21.1.jar"
 hash = "7010aae2e837122fe8dabd5932358e2ba334fcbc62ca6530cb1cb00402d2c63b"
+
+[[files]]
+file = "mods/molten_vents-1.21.1-2.1.1.jar"
+hash = "62aa307741ae10c3df3bd364dfe2e706413a1b428601ff61e4aeb5049cc40b5c"
 
 [[files]]
 file = "mods/moonlight-1.21.1-3.8.3-neoforge.jar"
