@@ -2793,10 +2793,6 @@ file = "mods/CarbonConfig-Neoforge-1.21.1-2.0.3.jar"
 hash = "393a5ae752a419da970e9cacdf510c0822039b572cb189517b648a2a03cdb172"
 
 [[files]]
-file = "mods/Chunky-NeoForge-1.4.23.jar"
-hash = "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274"
-
-[[files]]
 file = "mods/Cinematic Interaction-NeoForge-1.21.1-0.18.30.jar"
 hash = "4a6bb18685bb8adbd2ee08a242b08088dbd5d9ddf0bf1c3d140269107ba4d7c5"
 
