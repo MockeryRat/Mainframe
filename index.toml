@@ -3129,10 +3129,6 @@ file = "mods/create-enchantment-industry-2.5.4b.jar"
 hash = "0230b4dfa5af59bc91aef6a26f13165aeeec7026969ce39c823fc3d198e2241d"
 
 [[files]]
-file = "mods/create-new-age-1.2.0+neoforge-mc1.21.1.jar"
-hash = "a217ea21ccc8364e99d86777e519436bc7c94516df9737ad0103047e48a44717"
-
-[[files]]
 file = "mods/create-riftborne-1.21.1-1.0.0-beta.5.jar"
 hash = "cb7934bef0c95ff9170a42e9e11e13c668e00b345b7b19bd6398f7e2eea09ae1"
 
